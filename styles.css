@@ -1,0 +1,194 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* белые ссылки без подчеркивания на странице */
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.fixed-container {
+	max-width: 1440px;
+	min-width: 320px;
+	padding: 0 20px;
+	margin: 0 auto; /* выравнивание по центру */
+	position: relative;
+}
+
+/* первая секция по макету */
+.fold-01 {
+	height: 1000px;
+	width: 100%;
+	background-image: url(img/background-fold-01.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+/* шапка первой секции по макету */
+.fold-01__header {
+	height: 150px;
+	width: 100%
+}
+
+/* лого в шапке первой секции по макету */
+.fold-01__header-logo {
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: .2rem;
+	padding: 28px 20px;
+	background-color: #000000;
+	box-shadow: 10px 5px 5px grey;
+}
+
+/* меню в шапке первой секции по макету */
+.fold-01__header-menu {
+	float: right;
+	margin-top: 25px;
+	margin-right: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	border-bottom: 5px solid white;
+	border-top: 5px solid white;
+	padding: 5px 0 5px 0;
+}
+
+/* текс на главном баннере первой секции */
+.fold-01__header-text {
+	position: absolute;
+	top: 385px;
+	right: 50px;
+	color: #ffffff;
+	font-size: 64px;
+	font-weight: bold;
+	height: 340px;
+	width: 650px;
+	text-align: right;
+	/*line-height: normal;*/
+}
+
+.fold-01__header-text::first-line {
+	font-size: 220px;
+	font-weight: 100;
+}
+
+/* вторая секция по макету */
+.fold-02 {
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+/* свойства блока с текстом второй секции */
+.fold-02__text {
+	display: table;
+	vertical-align: middle;
+	table-layout: fixed;
+	width: 100%;
+	/*height: 500px;*/
+	padding: 90px 0;
+}
+
+.fold-02__text-first-part {
+	font-size: 60px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.fold-02__text-first-part::first-line {
+	font-weight: 200;
+}
+
+.fold-02__text-second-part {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.fold-02__text-third-part {
+	font-size: 20px;
+	font-weight: 200;
+	margin: 0;
+}
+
+.fold-02__text-third-part p {
+	margin: 0;
+}
+
+/* третья секция по макету */
+.fold-03 {
+	height: 650px;
+	/*background-color: #00ff00;*/
+}
+
+.fold-03__left-column {
+	float: left;
+	height: 650px;
+	width: 50%;
+	background-color: #ffe9e2;
+}
+
+.fold-03__main-text {
+	text-align: left;
+	padding: 125px 50px 0 50px;
+	font-size: 36px;
+	font-weight: bold;
+	color: black;
+}
+
+.fold-03__secondary-text {
+	text-align: left;
+	padding: 45px 50px 0 50px;
+	font-size: 36px;
+	font-weight: 200;
+	color: black;
+}
+
+.fold-03__right-column {
+	float: right;
+	height: 650px;
+	width: 50%;
+	background-image: url(img/background-fold-03.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* пятая секция по макету */
+.fold-05 {
+	height: 660px;
+	background-image: url(img/background-fold-05.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.fold-05__text_big {
+	text-align: center;
+	padding: 200px 0 0 0;
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+}
+
+.fold-05__text_small {
+	text-align: center;
+	margin: 65px 0 0 0;
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+}
+
+.fold-05__text_small a {
+	text-decoration: underline;
+}
